@@ -1,0 +1,34 @@
+
+  
+  .blink{
+
+    animation: blinker 1s linear;
+    
+  }
+
+
+
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+      background-color: lavender;
+    }
+  }
+
+  .subcontainer{
+    width: 67%;
+    position:reative;
+
+    
+    top:0;
+    left: 15%;
+  }
+
+  .subcontainer1{
+    width: 22%;
+    position:absolute;
+
+    
+    top:0;
+    right: 15%;
+  }
